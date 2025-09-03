@@ -1,17 +1,30 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
+	"name": "Kopassus",
+	"unitType": "Gunpowder",
+	"uniqueTo": "Indonesia",
+	"replaces": "Marine",
+	"strength": 65,
+	"cost": 300,
+	"movement": 3,
+	"uniques":["[+33]% Strength <vs cities>", "Can move after attacking", "Comment [Unlocked Earlier at [Electronics] ]"],
+	"requiredTech": "Electronics",
+	"promotions": ["Amphibious", "Paradrop"],
+	"upgradesTo": "Future Soldier",
+	"attackSound": "shot"
+    },
+	
+	{
+	"name": "Pesilat",
+	"unitType": "Sword",
+	"uniqueTo": "Indonesia",
+	"replaces": "Warrior",
+	"movement": 2,
+	"strength": 8,
+	"cost": 40,
+	"obsoleteTech": "Metal Casting",
+	"promotions": ["[+25]% Strength <vs [Land] units>"],
+	"upgradesTo": "Swordsman",
+	"attackSound": "nonmetalhit"
 	}
 ]
