@@ -1,25 +1,50 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
-	},
+			"name": "Holysite bonus",
+			"uniqueTo": "Indonesia",
+			"cost": 1,
+			"uniques": [
+				"[+15]% Production when constructing [All] wonders [in this city]",
+				"Must have an owned [Holy site] within [5] tiles",
+				"Automatically built in all cities where it is buildable",
+				"Destroyed when the city is captured",
+				"Will not be displayed in Civilopedia"
+			]
+		},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+			"name": "Masjid Istiqlal",
+			"replaces": "Grand Temple",
+			"uniqueTo": "Indonesia",
+			"isNationalWonder": true,
+			"culture": 8,
+			"faith": 8,
+			"cost": 125,
+			"uniques": [
+				"Comment [Tech [Philosophy] vs [Theology]]",
+				"Cost increases by [30] per owned city",
+				"Gain a free [Temple] [in all cities]"
+			],
+			"requiredTech": "Philosophy",
+			"civilopediaText": [
+				{"text": "The largest mosque in Southeast Asia and the ninth largest mosque in the world in terms of worshipper capacity. Built to commemorate Indonesian independence, this national mosque of Indonesia was named Istiqlal, an Arabic word for independence."},
+			]
+		},
+	{
+			"name": "Pesantren",
+			"replaces": "University",
+			"uniqueTo": "Indonesia",
+			"requiredBuilding": "Library",
+			"hurryCostModifier": 15,
+			"maintenance": 2,
+			"percentStatBonus": {"science": 33},
+			"specialistSlots": {"Scientist": 2},
+			"uniques": [
+				"[+2 Science] from [Jungle] tiles [in this city]",
+				"[+1 Faith] per [3] population [in this city]"
+			],
+			"requiredTech": "Education",
+			"civilopediaText": [
+				{"text": "Pesantren are Islamic boarding schools consisting of pondok (dormitories), mosque, and the teaching of Islamic texts. The term 'pesantren' derives from the word 'santri,' which means student in Javanese, forming 'pe-santri-an' or place of the santri. Pesantren provide housing at little to no cost for the students and are led by a group of teachers and religious leaders called Kyai."},
+			]
+		}
 ]
