@@ -12,24 +12,6 @@
 			]
 		},
 	{
-			"name": "Masjid Istiqlal",
-			"replaces": "Grand Temple",
-			"uniqueTo": "Indonesia",
-			"isNationalWonder": true,
-			"culture": 8,
-			"faith": 8,
-			"cost": 125,
-			"uniques": [
-				"Comment [Tech [Philosophy] vs [Theology]]",
-				"Cost increases by [30] per owned city",
-				"Gain a free [Temple] [in all cities]"
-			],
-			"requiredTech": "Philosophy",
-			"civilopediaText": [
-				{"text": "The largest mosque in Southeast Asia and the ninth largest mosque in the world in terms of worshipper capacity. Built to commemorate Indonesian independence, this national mosque of Indonesia was named Istiqlal, an Arabic word for independence."},
-			]
-		},
-	{
 			"name": "Pesantren",
 			"replaces": "University",
 			"uniqueTo": "Indonesia",
@@ -45,6 +27,24 @@
 			"requiredTech": "Education",
 			"civilopediaText": [
 				{"text": "Pesantren are Islamic boarding schools consisting of pondok (dormitories), mosque, and the teaching of Islamic texts. The term 'pesantren' derives from the word 'santri,' which means student in Javanese, forming 'pe-santri-an' or place of the santri. Pesantren provide housing at little to no cost for the students and are led by a group of teachers and religious leaders called Kyai."},
+			]
+		},
+	{
+			"name": "Masjid Istiqlal",
+			"replaces": "Grand Temple",
+			"uniqueTo": "Indonesia",
+			"isNationalWonder": true,
+			"culture": 8,
+			"faith": 8,
+			"cost": 125,
+			"uniques": [
+				"Comment [Tech [Philosophy] vs [Theology]]",
+				"Cost increases by [30] per owned city",
+				"Gain a free [Temple] [in all cities]"
+			],
+			"requiredTech": "Philosophy",
+			"civilopediaText": [
+				{"text": "The largest mosque in Southeast Asia and the ninth largest mosque in the world in terms of worshipper capacity. Built to commemorate Indonesian independence, this national mosque of Indonesia was named Istiqlal, an Arabic word for independence."},
 			]
 		}
 ]
