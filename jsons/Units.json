@@ -1,5 +1,18 @@
 [
 	{
+	"name": "Pesilat",
+	"unitType": "Sword",
+	"uniqueTo": "Indonesia",
+	"replaces": "Warrior",
+	"movement": 2,
+	"strength": 8,
+	"cost": 40,
+	"obsoleteTech": "Metal Casting",
+	"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
+	"upgradesTo": "Swordsman",
+	"attackSound": "nonmetalhit"
+	},
+	{
 	"name": "Kopassus",
 	"unitType": "Gunpowder",
 	"uniqueTo": "Indonesia",
@@ -12,19 +25,5 @@
 	"promotions": ["Amphibious", "Paradrop"],
 	"upgradesTo": "Future Soldier",
 	"attackSound": "shot"
-    },
-	
-	{
-	"name": "Pesilat",
-	"unitType": "Sword",
-	"uniqueTo": "Indonesia",
-	"replaces": "Warrior",
-	"movement": 2,
-	"strength": 8,
-	"cost": 40,
-	"obsoleteTech": "Metal Casting",
-	"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
-	"upgradesTo": "Swordsman",
-	"attackSound": "nonmetalhit"
-	}
+    }	
 ]
