@@ -1,11 +1,13 @@
 {
 	"isBaseRuleset": false,
-	"buildingsToRemove": [
-		"Cloves", "Nutmeg", "Pepper", "Candi"
-	],
 	"unitsToRemove": [
 		"Kris Swordsman"
 	],
+	
+	"buildingsToRemove": [
+		"Cloves", "Nutmeg", "Pepper", "Candi"
+	],
+	
   "uniques": [
 		"Mod requires [Civ V - Gods & Kings]",
 		"Mod is incompatible with [Brave New World]",
