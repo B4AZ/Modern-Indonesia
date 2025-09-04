@@ -19,8 +19,8 @@
 		"hateHello": "Are you a male concubine, stranger?",
 		"tradeRequest": "What if we make a deal, you and me?",
 
-		"outerColor": [101,211,220],
-		"innerColor": [167,52,31],
+		"innerColor": [255,0,0],
+		"outerColor": [255,255,255],
 		"uniqueName": "Bhinneka Tunggal Ika",
 		"uniques": [
 			"Preferred Ideology: Freedom",
