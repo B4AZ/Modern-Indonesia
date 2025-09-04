@@ -40,7 +40,8 @@
 			"uniques": [
 				"Comment [Tech [Philosophy] vs [Theology]]",
 				"Cost increases by [30] per owned city",
-				"Gain a free [Temple] [in all cities]"
+				"Gain a free [Temple] [in all cities]",
+				"Can only be built <in [Holy] cities>"
 			],
 			"requiredTech": "Philosophy",
 			"civilopediaText": [
