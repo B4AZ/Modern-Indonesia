@@ -23,9 +23,9 @@
 		"outerColor": [255,255,255],
 		"uniqueName": "Bhinneka Tunggal Ika",
 		"uniques": [
-			"[+1 Food, +1 Production] from every [Water Resource]",
+			"[+1 Production, +1 Happiness] from every [Bonus resource]",
 			"[+2 Faith] <after founding a Pantheon> <before founding a religion>",
-			"[+1 Culture, +1 Happiness] [in all cities] <in cities with an enhanced religion>",
+			"[+2 Culture, +1 Happiness] [in all cities] <in cities with an enhanced religion>",
 			"Comment [+15% [Production] when constructing wonders in cities with a [Holy site]]",
 		]
 		"spyNames": ["Adityawarman", "Airlangga", "Citra", "Asep", "Joko", "Lingga", "Dewi", "Prapana", "Raden", "Masbro"],
