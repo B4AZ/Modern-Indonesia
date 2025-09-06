@@ -6,7 +6,7 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 NationIcons/Indonesia
   rotate: false
-  xy: 3, 3
+  xy: 5, 3
   size: 1080, 1080
   orig: 1080, 1080
   offset: 0, 0
