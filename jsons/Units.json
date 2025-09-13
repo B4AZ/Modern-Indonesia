@@ -23,7 +23,6 @@
 	"uniques":["[+33]% Strength <vs cities>", "Can move after attacking", "Comment [Unlocked Earlier at [Electronics] ]"],
 	"requiredTech": "Electronics",
 	"promotions": ["Amphibious", "Paradrop"],
-	"upgradesTo": "Future Soldier",
 	"attackSound": "shot"
     }	
 ]
