@@ -20,9 +20,9 @@
 	"strength": 65,
 	"cost": 300,
 	"movement": 3,
-	"uniques":["[+33]% Strength <vs cities>", "Can move after attacking", "Comment [Unlocked Earlier at [Electronics] ]"],
+	"uniques":["[+33]% Strength <vs cities>", "May Paradrop to [All] tiles up to [9] tiles away", "Can move after attacking", "Comment [Unlocked Earlier at [Electronics] ]"],
 	"requiredTech": "Electronics",
-	"promotions": ["Amphibious", "Paradrop"],
+	"promotions": "Amphibious",
 	"attackSound": "shot"
     }	
 ]
