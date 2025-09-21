@@ -12,6 +12,19 @@ NationPortraits/Indonesia
   offset: 0, 0
   index: -1
 
+Indonesia1.png
+size: 100, 100
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+NationIcons/Indonesia
+  rotate: false
+  xy: 1, 1
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
 Background.png
 size: 100, 100
 format: RGBA8888
